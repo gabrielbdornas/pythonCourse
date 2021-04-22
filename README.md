@@ -19,11 +19,11 @@ is_published = True
 
 ## Comentários 
 Uma linha de comentário se inicia com o caractere "#". Utilizamos comentários para adicionar notas em nosso código. Comentários explicam o que foi feito.
-Eles devem refletir o código e servem para facilitar o entendimento do mesmo por você e ou outras pessoas
+Eles devem refletir o código e servem para facilitar o entendimento do mesmo por você e até outras pessoas.
 
 ```buildoutcfg
-# This is a comment and it won’t get executed.
-# Our comments can be multiple lines. 
+# Isto é um comentário e não será executado
+# Os comentários podem ser feitos em múltiplas linhas 
 ```
 
 ## Recebendo input
@@ -33,5 +33,5 @@ Podemos receber input dos usuários chamando a função input().
 birth_year = int(input(‘Birth year: ‘))
 ```
 
-O função input() sempre retorna uma string. Então se você necessitar realizar algum cálculo com o que foi digitado, é necessário utilizar funções de conversão, int(), por exemplo.
+O função input() sempre retorna uma string. Então se você necessitar realizar algum cálculo com o que foi informado, é necessário utilizar funções de conversão, int(), por exemplo.
 O exemplo acima está fazendo exatamente isto.
