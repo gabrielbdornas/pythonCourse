@@ -66,7 +66,7 @@ message.upper() # para converter todo texto em letra maiúscula
 message.lower() # para converter todo texto em letra minúscula
 message.title() # para colocar apenas a primeira letra em maiúscula
 message.find(‘p’) # retorna o index do primeiro p, caso ele exista (-1 será retornado caso ele não exista)
-message.replace(‘p’, ‘q’) # substitui estring
+message.replace(‘p’, ‘q’) # substitui caracteres na string
 ```
 
 Para checar se uma string contem um caracter (ou uma sequência), podemos utilizar o operador "in":
