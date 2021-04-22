@@ -76,4 +76,28 @@ contains_true = ‘Python’ in course # retornará True
 contains_false = ‘python’ in course # retornará False - case sensitive
 ```
 
+## Operadores Aritiméticos 
+```buildoutcfg
++                # adição
+-                # subtração
+*                # multiplicação
+/                # retorna um float
+//               # retorna um int
+%                # resto da divisão
+**               # exponenciação
+
+```
+
+Simplificação:
+```buildoutcfg
+x = x + 10
+x += 10
+```
+
+Procedência:
+1. parenthesis
+2. exponentiation
+3. multiplication / division
+4. addition / subtraction 
+
 
