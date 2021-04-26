@@ -100,4 +100,50 @@ Procedência:
 3. multiplication / division
 4. addition / subtraction 
 
+## If Statements
+```buildoutcfg
+if is_hot:
+ print(“hot day”)
+elif is_cold:
+ print(“cold day”)
+else:
+ print(“beautiful day”)
+```
+
+### Logical operators:
+```buildoutcfg
+if has_high_income and has_good_credit:
+ ...
+if has_high_income or has_good_credit:
+is_day = True
+is_night = not is_day
+```
+
+### Comparison operators
+```buildoutcfg
+a > b
+a >= b # (greater than or equal to)
+a < b
+a <= b
+a == b # (equals)
+a != b # (not equals) 
+```
+
+## While loops
+```buildoutcfg
+i = 1
+while i < 5:
+ print(i)
+ i += 1
+```
+
+## For loops
+```buildoutcfg
+for i in range(1, 5):
+ print(i)
+# range(5): generates 0, 1, 2, 3, 4
+# range(1, 5): generates 1, 2, 3, 4
+# range(1, 5, 2): generates 1, 3 
+```
+
 
