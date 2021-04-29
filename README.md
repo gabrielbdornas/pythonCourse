@@ -198,6 +198,44 @@ customer.get(“type”, “silver”) # retorna “silver”
 customer[“name”] = “new name” # atribui novo valor para key name
 ```
 
+## Functions / Funções
+Utilizamos funções para quebrar o código em pequenos pedaços. Este pedaços, então,
+ficam mais fáceis de ler, entender e dar manutenção. Em caso de bugs é mais fácil
+encontrar o problema em partes pequenas do que no programa inteiro. 
+Podemos também reutilizar estas partes ao longo de nosso programa
+
+```buildoutcfg
+def greet_user(name):
+ print(f”Hi {name}”)
 
 
+greet_user(“John”)
+
+```
+
+Parametros são informações passadas para funções. Argumentos são os valores reais passados
+quando chamamos a função
+Temos dois tipos de argumentos:
+- Positional arguments: ordem importa
+- Keyword arguments: ordem não importa, são prefixados com o nome do parametro
+
+```buildoutcfg
+# dois positional arguments
+greet_user(“John”, “Smith”)
+
+# Keyword arguments
+calculate_total(order=50, shipping=5, tax=0.1)
+```
+
+Funções podem (devem) retornar valores. Se você não utilizar "return", por padrão
+None é retornado. None é um objeto que representa ausênicia de valor.
+
+```buildoutcfg
+def square(number):
+ return number * number
+
+
+result = square(2)
+print(result) # prints 4
+```
 
