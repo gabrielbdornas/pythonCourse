@@ -179,3 +179,25 @@ print(y)
 print(z)
 ```
 
+## Dictionaries - Dicionários
+São utilizados para armazenar key/values(chaves/valores) pares
+pense em um dicionário mesmo
+```buildoutcfg
+customer = {
+ “name”: “John Smith”,
+ “age”: 30,
+ “is_verified”: True
+}
+
+# utilize strings ou numeros para definir keys, devendo estes serem únicos
+# values podem ser qualquer tipo de dado
+
+customer[“name”] # retorna “John Smith”
+customer[“type”] # gerará um erro, pois o dicionário não possui key type
+customer.get(“type”, “silver”) # retorna “silver”
+customer[“name”] = “new name” # atribui novo valor para key name
+```
+
+
+
+
