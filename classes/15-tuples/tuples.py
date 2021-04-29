@@ -27,5 +27,6 @@ print("----------------Exercícios----------------")
 # utilize a função count para printar na tela quantas vezes o primeiro elemento da tuple abaixo aparece na mesma
 numbers = (1, 2, 1, 3, 4, 5, 1)
 
-# crie variáveis para os 3 primeiros elementos do tuple acima utilizando unpaking
+# crie variáveis os elementos da tuple acima utilizando unpaking e print alguns deles
+
 print("----------------Exercícios----------------")
