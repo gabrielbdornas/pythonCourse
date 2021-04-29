@@ -146,4 +146,26 @@ for i in range(1, 5):
 # range(1, 5, 2): generates 1, 3 
 ```
 
+## Lists
+```buildoutcfg
+numbers = [1, 2, 3, 4, 5]
+numbers[0] # retorna o primeiro item da lista numbers
+numbers[1] # retorna o segundo item da lista numbers
+numbers[-1] # retorna o último item da lista numbers
+numbers[-2] # retorna o penúltimo item da lista numbers 
+
+# métodos de lista
+
+numbers.append(6) # adiciona 6 no final da lista
+numbers.insert(0, 6) # adiciona 6 no index 0 ou primeiro elemento
+numbers.remove(6) # remove o 6
+numbers.pop() # remove o último item da lista
+numbers.clear() # limpa a lista, removendo todos os seus itens
+numbers.index(8) # retorna o index da primeira ocorrência do 8
+numbers.sort() # classifica a lista
+numbers.reverse() # invert a lista
+numbers.copy() # retorna uma cópia da lista 
+```
+
+
 
