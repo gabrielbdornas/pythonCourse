@@ -167,5 +167,15 @@ numbers.reverse() # invert a lista
 numbers.copy() # retorna uma cópia da lista 
 ```
 
-
+## Tuples
+São listas de leitura apenas. Uma vez definida, não é possível adicionar, remover
+ou modificar seus itens.
+```buildoutcfg
+coordinates = (1, 2, 3)
+# podemos utilizar unpack (assim como em listas)
+x, y, z = coordinates 
+print(x)
+print(y)
+print(z)
+```
 
