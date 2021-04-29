@@ -240,7 +240,7 @@ print(result) # prints 4
 ```
 
 ## Exceptions 
-Exceptions são error que quebram nosso programa. Usualmente acontecem devido a 
+Exceptions são erros que quebram nosso programa. Usualmente acontecem devido a 
 inputs errados ou erros do próprio programa. É noss tarefa antecipar e tratar estes
 erros, evitando que nossos programas quebrem.
 
