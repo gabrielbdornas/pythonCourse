@@ -239,3 +239,19 @@ result = square(2)
 print(result) # prints 4
 ```
 
+## Exceptions 
+Exceptions são error que quebram nosso programa. Usualmente acontecem devido a 
+inputs errados ou erros do próprio programa. É noss tarefa antecipar e tratar estes
+erros, evitando que nossos programas quebrem.
+
+```buildoutcfg
+try:
+ age = int(input(‘Age: ‘))
+ income = 20000
+ risk = income / age
+ print(age)
+except ValueError:
+ print(‘Not a valid number’)
+except ZeroDivisionError:
+ print(‘Age cannot be 0’)
+```
